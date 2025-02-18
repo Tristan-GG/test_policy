@@ -1,7 +1,5 @@
 package test
 
-default message = "null"
+default message = null
 
-message = "hello world" {
-    input.user == "admin"
-}
+message = "11.11" if input.user == "admin"
