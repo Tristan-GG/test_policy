@@ -2,6 +2,6 @@ package test
 
 default msg = null
 
-msg = "hello worldddddd" {
+msg = "hello infra" {
     input.user == "admin"
 }
