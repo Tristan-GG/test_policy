@@ -2,6 +2,6 @@ package test
 
 default msg = null
 
-msg = "hello infra" {
+msg = "hello libv2" {
     input.user == "admin"
 }
